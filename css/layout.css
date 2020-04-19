@@ -1,0 +1,125 @@
+
+
+.name{
+    height:50px;
+}
+
+nav{
+    height:70px;
+    width: 100%;
+    background-color: rgb(116, 79, 103);
+    color:#fff;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+	letter-spacing: 5px;
+}
+
+.nav-link{
+    word-spacing:normal;
+}
+
+h1 {
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    text-align: center;
+   color: rgb(116, 79, 103);    
+}
+
+h2{
+    text-align: center;
+    color:  rgb(116, 79, 103);
+}
+
+.myself{
+    text-align: center;
+}
+
+#profile_picture{
+    border:2px solid  rgb(116, 79, 103);
+    width:90%;
+    display: block;
+    margin-top: 90px;
+}
+
+
+#skills-title{
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 90px;
+    text-align: center;
+    color:rgb(116,79,103);
+}
+
+.topics{
+    font-size: 30px;
+    margin-top:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+
+
+.imaskills{
+    height: 100px;
+    margin-top: 50px;
+    
+}
+h4{
+    text-align: center;
+}
+
+h4:hover{
+    color:rgb(116,79,103);
+        
+}
+form{
+    margin:20px;
+}
+
+
+label{
+    margin-top:10px;
+}
+
+
+.btn-outline-primary{
+    background-color:transparent;
+    border-color:  rgb(116,79,103);
+    color:rgb(116,79,103);
+    border-radius:4;
+    margin-bottom: 20px;
+}
+
+.btn-outline-primary:hover{
+    background-color:rgb(131, 82, 114);
+
+}
+
+
+.btn-outline-primary::before{
+    content:"";
+    position:absolute;
+    background-color:rgb(116,79,103);
+    height: 0%;
+    width:0%;
+    z-index:-1;
+    transition:0.7s
+}
+
+
+.footer{
+   
+    background-color:rgb(116,79,103);
+    color:#fafaff
+
+}
+    
+.name-bottom{
+    text-align: center;
+    padding:3px;
+    margin:5px;
+}
+
