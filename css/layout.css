@@ -1,4 +1,6 @@
-
+body{
+    overflow:hidden;
+}
 
 .name{
     height:50px;
@@ -36,8 +38,7 @@ h2{
 
 #profile_picture{
     border:2px solid  rgb(116, 79, 103);
-    width:90%;
-    display: block;
+    width:85%;
     margin-top: 90px;
 }
 
@@ -122,4 +123,3 @@ label{
     padding:3px;
     margin:5px;
 }
-
